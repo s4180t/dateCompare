@@ -1,0 +1,16 @@
+{
+  "name": "datecompare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webapp/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/cli": "^2.14.0",
+    "eslint": "^8.1.0",
+    "prettier": "^2.4.1"
+  }
+}

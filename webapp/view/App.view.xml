@@ -1,0 +1,27 @@
+<mvc:View
+	controllerName="sap.ui.demo.basicTemplate.controller.App"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page
+				id="page"
+				title="{i18n>title}"
+				class="sapUiContentPadding">
+				<content>
+					<VBox renderType="Bare">
+						<DateRangeSelection value="{
+							parts: ['/start', '/end'],
+							type: 'sap.ui.model.type.DateInterval'
+						}" />
+						<Text text="{
+							parts: ['/start', '/end'],
+							formatter: '.bCompare'
+						}" />
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
